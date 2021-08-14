@@ -36,5 +36,5 @@ for i in range(1, n+1):
             cnt += 1
             if max_time < distance[i]:
                 max_time = distance[i]
-                
+
 print(cnt, max_time)
