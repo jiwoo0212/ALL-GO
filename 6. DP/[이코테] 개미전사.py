@@ -8,4 +8,3 @@ for i in range(2, n):
     d[i] = max(d[i-1], d[i-2]+d[i])
 
 print(d[n-1])
-
